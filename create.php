@@ -1,5 +1,5 @@
 <?php
-    include_once "../Connection/connection.php";
+    include_once "connection.php";
     $con = connection();
 
 
