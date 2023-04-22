@@ -4,8 +4,8 @@
 
 
     if(isset($_POST['post'])){
-        $message = test_input($_POST['createPostMsg']); // clone message
-        $message = str_replace("  ", "&nbsp;", $message); // replace all 'sp' with space
+        $message = test_input($_POST['createPostMsg']);
+        $message = str_replace("  ", "&nbsp;", $message); // replace all inputted spaces with output spaces (&nbsp;)
 
 
         $sql = "INSERT INTO `announcements`(`message`, `posted_time`) 
