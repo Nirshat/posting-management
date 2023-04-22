@@ -4,8 +4,8 @@ $con = connection();
 
 if(isset($_POST['update'])){
     $postCode = $_POST['postCode'];
-    $message = test_input($_POST['updatePostMsg']); // clone message
-    $message = str_replace("  ", "&nbsp;", $message); // replace all white spaces with space
+    $message = test_input($_POST['updatePostMsg']);
+    $message = str_replace("  ", "&nbsp;", $message); // replace all inputted spaces with output spaces
 
     $sql = "UPDATE `announcements` SET `message`='$message', `posted_time`= NOW() WHERE `annc_code` = '$postCode' ";
     $config = $con->query($sql) or die ($con->error);
