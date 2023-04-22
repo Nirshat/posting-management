@@ -1,15 +1,5 @@
 <?php
-// This will prevent the user to access the system to ensure that they must login first
-if(empty($_SESSION['coordinator'])){
-session_start(); // if the user login successfully, session will start
-}
-if(isset($_SESSION['coordinator'])){
-} // if the session has already started, nothing happens
-else{
-header("Location: ../ADMIN/login_session.php");
-} // redirect to login page if session is not yet set
-
-include_once "../Connection/connection.php";
+include_once "db-config.php";
 $con = connection();
 
 include "create.php";
