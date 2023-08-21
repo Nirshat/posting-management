@@ -15,20 +15,6 @@ include "update.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/f4106a4f9b.js" crossorigin="anonymous"></script>
-
-
-    <!-- DATA TABLES -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
-
-
     <style>
         body{
             /* background-color:#f7f7f7; */
@@ -36,75 +22,18 @@ include "update.php";
             padding:0;
         }
         
-
- 
-
-
         textarea{
             resize: none;
             padding: 10px;
             font-size: 18px;
             width:100%;
-        }
-
-
-
-
-
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-
-        /* select filter */
-        .dataTables_wrapper .dataTables_length select {
-            border: 1px solid #aaa;
-            border-radius: 3px;
-            background-color: transparent;
-            padding:0px;
-            margin-bottom:10px;
-        }
-
-        /* pagination button */
-            .dataTables_wrapper .dataTables_paginate .paginate_button {
-            box-sizing: border-box;
-            display: inline-block;
-            min-width: 1.5em;
-            padding:0px 15px;
-            margin-left: 2px;
-            text-align: center;
-            text-decoration: none !important;
-            cursor: pointer;
-            color: inherit !important;
-            border: 1px solid transparent;
-            border-radius: 2px;
-        }
-
-
-        table.dataTable thead th,
-        table.dataTable thead td {
-            padding:0;
-        }
-
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-        /* -----------Data Tables------------- */
-            
+        }            
 
     </style>
 </head>
 
 
 <body>
-
-    
-
-
 
     <div>
         <button class="pop-btn" data-bs-toggle="modal" data-bs-target="#post-modal">
@@ -135,12 +64,6 @@ include "update.php";
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
 
     <?php
